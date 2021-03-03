@@ -1,7 +1,11 @@
+package phone
+
 class Android : Phone() {
 
+    override var model = "0.4"
+
     override fun call() {
-        println("Calling Android")
+        println("Calling Phone.Android")
     }
 
     fun changeRam () {
